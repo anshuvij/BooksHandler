@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16575DC925AAF243008D62B2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16575DC825AAF243008D62B2 /* DetailsViewController.swift */; };
+		16575DD025AAF630008D62B2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16575DCE25AAF630008D62B2 /* CustomCell.swift */; };
+		16575DD125AAF630008D62B2 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16575DCF25AAF630008D62B2 /* CustomCell.xib */; };
+		16CE9BAE25AC26E200E5F7C3 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CE9BAD25AC26E200E5F7C3 /* CustomImageView.swift */; };
 		16F58B0225A7853700E3C70B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F58B0125A7853700E3C70B /* AppDelegate.swift */; };
 		16F58B0425A7853700E3C70B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F58B0325A7853700E3C70B /* SceneDelegate.swift */; };
 		16F58B0625A7853700E3C70B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F58B0525A7853700E3C70B /* ViewController.swift */; };
@@ -14,9 +18,17 @@
 		16F58B0C25A7853700E3C70B /* BooksHandler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16F58B0A25A7853700E3C70B /* BooksHandler.xcdatamodeld */; };
 		16F58B0E25A7853900E3C70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F58B0D25A7853900E3C70B /* Assets.xcassets */; };
 		16F58B1125A7853900E3C70B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F58B0F25A7853900E3C70B /* LaunchScreen.storyboard */; };
+		16F58B1B25A7861700E3C70B /* BooksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F58B1A25A7861700E3C70B /* BooksData.swift */; };
+		16F58B2025A786EB00E3C70B /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F58B1F25A786EB00E3C70B /* APIHandler.swift */; };
+		16F58B2425A787E700E3C70B /* BooksDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F58B2325A787E700E3C70B /* BooksDelegate.swift */; };
+		16F58B2725A78ACE00E3C70B /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F58B2625A78ACE00E3C70B /* DatabaseController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16575DC825AAF243008D62B2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		16575DCE25AAF630008D62B2 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		16575DCF25AAF630008D62B2 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		16CE9BAD25AC26E200E5F7C3 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		16F58AFE25A7853700E3C70B /* BooksHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BooksHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F58B0125A7853700E3C70B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16F58B0325A7853700E3C70B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +38,10 @@
 		16F58B0D25A7853900E3C70B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16F58B1025A7853900E3C70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16F58B1225A7853900E3C70B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16F58B1A25A7861700E3C70B /* BooksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksData.swift; sourceTree = "<group>"; };
+		16F58B1F25A786EB00E3C70B /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		16F58B2325A787E700E3C70B /* BooksDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksDelegate.swift; sourceTree = "<group>"; };
+		16F58B2625A78ACE00E3C70B /* DatabaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,9 @@
 		16F58B0025A7853700E3C70B /* BooksHandler */ = {
 			isa = PBXGroup;
 			children = (
+				16F58B2225A787D800E3C70B /* Protocols */,
+				16F58B1E25A786D900E3C70B /* API */,
+				16F58B1925A7860700E3C70B /* Model */,
 				16F58B0125A7853700E3C70B /* AppDelegate.swift */,
 				16F58B0325A7853700E3C70B /* SceneDelegate.swift */,
 				16F58B0525A7853700E3C70B /* ViewController.swift */,
@@ -66,8 +85,37 @@
 				16F58B0F25A7853900E3C70B /* LaunchScreen.storyboard */,
 				16F58B1225A7853900E3C70B /* Info.plist */,
 				16F58B0A25A7853700E3C70B /* BooksHandler.xcdatamodeld */,
+				16F58B2625A78ACE00E3C70B /* DatabaseController.swift */,
+				16575DC825AAF243008D62B2 /* DetailsViewController.swift */,
+				16575DCE25AAF630008D62B2 /* CustomCell.swift */,
+				16575DCF25AAF630008D62B2 /* CustomCell.xib */,
+				16CE9BAD25AC26E200E5F7C3 /* CustomImageView.swift */,
 			);
 			path = BooksHandler;
+			sourceTree = "<group>";
+		};
+		16F58B1925A7860700E3C70B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16F58B1A25A7861700E3C70B /* BooksData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16F58B1E25A786D900E3C70B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				16F58B1F25A786EB00E3C70B /* APIHandler.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		16F58B2225A787D800E3C70B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				16F58B2325A787E700E3C70B /* BooksDelegate.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +177,7 @@
 			files = (
 				16F58B1125A7853900E3C70B /* LaunchScreen.storyboard in Resources */,
 				16F58B0E25A7853900E3C70B /* Assets.xcassets in Resources */,
+				16575DD125AAF630008D62B2 /* CustomCell.xib in Resources */,
 				16F58B0925A7853700E3C70B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,10 +189,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F58B2425A787E700E3C70B /* BooksDelegate.swift in Sources */,
+				16F58B1B25A7861700E3C70B /* BooksData.swift in Sources */,
+				16575DD025AAF630008D62B2 /* CustomCell.swift in Sources */,
+				16575DC925AAF243008D62B2 /* DetailsViewController.swift in Sources */,
 				16F58B0625A7853700E3C70B /* ViewController.swift in Sources */,
 				16F58B0C25A7853700E3C70B /* BooksHandler.xcdatamodeld in Sources */,
+				16F58B2025A786EB00E3C70B /* APIHandler.swift in Sources */,
 				16F58B0225A7853700E3C70B /* AppDelegate.swift in Sources */,
 				16F58B0425A7853700E3C70B /* SceneDelegate.swift in Sources */,
+				16CE9BAE25AC26E200E5F7C3 /* CustomImageView.swift in Sources */,
+				16F58B2725A78ACE00E3C70B /* DatabaseController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +347,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H2DBPDAG2B;
+				DEVELOPMENT_TEAM = H37Y73D229;
 				INFOPLIST_FILE = BooksHandler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H2DBPDAG2B;
+				DEVELOPMENT_TEAM = H37Y73D229;
 				INFOPLIST_FILE = BooksHandler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

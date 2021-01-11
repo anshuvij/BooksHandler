@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  BooksHandler
 //
-//  Created by Mobile Apps Team on 1/7/21.
+//  Created by Anshu Vij on 1/7/21.
 //
 
 import UIKit
@@ -47,7 +47,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
 
         // Save changes in the application's managed object context when the application transitions to the background.
-        (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+        DatabaseController.saveContext()
     }
 
 
